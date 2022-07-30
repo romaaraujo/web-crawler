@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "af5e7ad2-4e3c-45c8-8fec-aa427bae63f6",
+		"name": "Crawler/Konsi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13529421"
+	},
+	"item": [
+		{
+			"name": "Get Benefits",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"cpf\": \"11111111111\",\n    \"user\": \"****\",\n    \"password\": \"*****\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/benefit",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"benefit"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
